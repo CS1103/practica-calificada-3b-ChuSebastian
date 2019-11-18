@@ -1,6 +1,30 @@
-#include <iostream>
+#include "lectura.h"
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  lectura();
+
+  /*
+
+  PRUEBA DE LECTURA Y ALMACENAMIENTO DE DATOS
+
+
+  for (auto i: vD){
+      cout << i << "  ";
+  }
+  cout << endl;
+
+   for (const auto& i: vL){
+      cout << i << "  ";
+  }
+
+  cout << endl;
+
+  for (auto i : vR){
+      cout << i << "  ";
+  }
+
+  cout << endl;
+
+  */
 }
