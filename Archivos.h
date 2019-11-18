@@ -35,27 +35,35 @@ void lectura() {
 }
 
 
-
-
-
-
 // Separar datos de la posicion del rectangulo
+
+
+
 // Ordenar de menor a mayor
 // Primero por las coordenadas y luego por el tamaño
 
 
 
 
-void escritura(){
-    ofstream archivo;
+void escritura() {
+    ofstream archivo; // crea un archivo
     archivo.open("rectangulos.out.txt", ios::out);
-    if (archivo.fail()){
+    if (archivo.fail()) {
         cout << "No se pudo abrir el archivo" << endl;
         exit(1);
     }
 
-    for (auto i:vR)
-        cout << i << " ";
+    vector <int>::iterator ptr;
+
+
+    int a = 0, b = 0;
+
+    for (ptr = begin(vR) + a; ptr < begin(vR) + b + 4; ptr++) {
+        cout << *ptr << "  ";
+    }
+    cout << endl;
+
+    
 
     archivo.close();
 }
