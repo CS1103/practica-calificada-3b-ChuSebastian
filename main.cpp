@@ -1,30 +1,9 @@
-#include "lectura.h"
+#include "Archivos.h"
 
 
 int main() {
-  lectura();
 
-  /*
+    lectura();
+    escritura();
 
-  PRUEBA DE LECTURA Y ALMACENAMIENTO DE DATOS
-
-
-  for (auto i: vD){
-      cout << i << "  ";
-  }
-  cout << endl;
-
-   for (const auto& i: vL){
-      cout << i << "  ";
-  }
-
-  cout << endl;
-
-  for (auto i : vR){
-      cout << i << "  ";
-  }
-
-  cout << endl;
-
-  */
 }
